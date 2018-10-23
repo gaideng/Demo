@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.growatt.demo.MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:lottie_fileName="data.json"
+        app:lottie_imageAssetsFolder="images/"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        />
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:lottie_url="http://cdn.growatt.com/apk/test/LogoSmall.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:background="@color/colorAccent"
+        />
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:lottie_fileName="atm_link.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:background="@color/colorAccent"
+        />
+</LinearLayout>
